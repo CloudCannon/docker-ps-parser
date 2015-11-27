@@ -1,0 +1,23 @@
+{
+  "name": "docker-ps-parser",
+  "version": "1.0.0",
+  "description": "Parses the output from docker ps into an object",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CloudCannon/docker-ps-parser.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "docker",
+    "parsing"
+  ],
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "author": "George Phillips <george@cloudcannon.com>",
+  "license": "MIT",
+  "dependencies": {}
+}

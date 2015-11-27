@@ -1,0 +1,7 @@
+CONTAINER ID        IMAGE                COMMAND                  CREATED             STATUS              PORTS               NAMES
+000000000001        fileserver:1027      "/bin/entrypoint node"   2 hours ago         Up 2 hours                              fileserver5
+000000000002        fileserver:1027      "/bin/entrypoint node"   2 hours ago         Up 2 hours                              fileserver4
+000000000003        fileserver:1027      "/bin/entrypoint node"   2 hours ago         Up 2 hours                              fileserver3
+000000000004        fileserver:1027      "/bin/entrypoint node"   2 hours ago         Up 2 hours                              fileserver2
+000000000005        fileserver:1027      "/bin/entrypoint node"   2 hours ago         Up 2 hours                              fileserver1
+000000000006        varnish:1009         "/start"                 2 weeks ago         Up 2 weeks                              varnish
